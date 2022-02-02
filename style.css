@@ -1,0 +1,27 @@
+.green {
+    background: green;
+    width: 30%;
+    height: 220px;
+}
+.yellow {
+    background: yellow;
+    width: 30%;
+    height: 220px;
+}
+.orange {
+    background: orange;
+    width: 30%;
+    height: 220px;
+}
+.span-green{
+    background: green;
+    border-radius: 100%;
+}
+.span-yellow{
+    background: yellow;
+    border-radius: 100%;
+}
+.span-orange{
+    background: orange;
+    border-radius: 100%;
+}
