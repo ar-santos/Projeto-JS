@@ -1,27 +1,64 @@
+.container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center; 
+    margin-top: 250px;
+}
+/* Cores criadas para a div "card" */
 .green {
     background: green;
     width: 30%;
     height: 220px;
+    border-radius: 10px;
+    margin-top: 130px;
+    margin-left: 50px;
 }
 .yellow {
     background: yellow;
     width: 30%;
     height: 220px;
+    border-radius: 10px;
+    margin-top: 130px;
+    margin-left: 50px;
 }
 .orange {
     background: orange;
     width: 30%;
     height: 220px;
+    border-radius: 10px;
+    margin-top: 130px;
+    margin-left: 50px;
 }
+
+/* button */
+.btns{
+    width: 100px;
+    height: 50px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+
+/* span */
 .span-green{
+    width: 15px;
+    height: 15px;
     background: green;
-    border-radius: 100%;
+    border-radius: 7.5px;
+    position: absolute;
 }
 .span-yellow{
+    width: 15px;
+    height: 15px;
     background: yellow;
-    border-radius: 100%;
+    border-radius: 7.5px;
+    position: absolute;
 }
 .span-orange{
+    width: 15px;
+    height: 15px;
     background: orange;
-    border-radius: 100%;
+    border-radius: 7.5px;
+    position: absolute;
 }

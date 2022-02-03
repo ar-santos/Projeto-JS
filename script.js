@@ -1,17 +1,30 @@
-document.getElementById("btn-green").addEventListener("click", function(){
-    document.getElementById("card").setAttribute("class", "green")
-    document.getElementById("span-orange").removeAttribute("class", "span-orange")
-    document.getElementById("span-green").setAttribute("class", "span-green")
-})
+var btnGreen = document.getElementById("btn-green");
+var btnYellow = document.getElementById("btn-yellow");
+var btnOrange = document.getElementById("btn-orange");
 
-document.getElementById("btn-yellow").addEventListener("click", function(){
-    document.getElementById("card").setAttribute("class", "yellow")
-    document.getElementById("span-green").removeAttribute("class", "span-green")
-    document.getElementById("span-yellow").setAttribute("class", "span-yellow")
-})
+var card = document.getElementById("card");
 
-document.getElementById("btn-orange").addEventListener("click", function(){
-    document.getElementById("card").setAttribute("class", "orange")
-    document.getElementById("span-yellow").removeAttribute("class", "span-yellow")
-    document.getElementById("span-orange").setAttribute("class", "span-orange")
-})
+var spanGreen = document.getElementById("span-green");
+var spanYellow = document.getElementById("span-yellow");
+var spanOrange = document.getElementById("span-orange");
+
+btnGreen.addEventListener("click", function(){
+    card.setAttribute("class", "green")
+    spanGreen.setAttribute("class", "span-green")
+    spanYellow.removeAttribute("class", "span-yellow")
+    spanOrange.removeAttribute("class", "span-orange")
+});
+
+btnYellow.addEventListener("click", function(){
+    card.setAttribute("class", "yellow")
+    spanYellow.setAttribute("class", "span-yellow")
+    spanGreen.removeAttribute("class", "span-green")
+    spanOrange.removeAttribute("class", "span-orange")
+});
+
+btnOrange.addEventListener("click", function(){
+    card.setAttribute("class", "orange")
+    spanOrange.setAttribute("class", "span-orange")
+    spanYellow.removeAttribute("class", "span-yellow")
+    spanGreen.removeAttribute("class", "span-green")
+});
