@@ -4,27 +4,27 @@ var btnOrange = document.getElementById("btn-orange");
 
 var card = document.getElementById("card");
 
-var spanGreen = document.getElementById("span-green");
-var spanYellow = document.getElementById("span-yellow");
-var spanOrange = document.getElementById("span-orange");
+var divGreen = document.getElementById("div-green");
+var divYellow = document.getElementById("div-yellow");
+var divOrange = document.getElementById("div-orange");
 
 btnGreen.addEventListener("click", function(){
     card.setAttribute("class", "green")
-    spanGreen.setAttribute("class", "span-green")
-    spanYellow.removeAttribute("class", "span-yellow")
-    spanOrange.removeAttribute("class", "span-orange")
+    divGreen.setAttribute("class", "div-green")
+    divYellow.removeAttribute("class", "div-yellow")
+    divOrange.removeAttribute("class", "div-orange")
 });
 
 btnYellow.addEventListener("click", function(){
     card.setAttribute("class", "yellow")
-    spanYellow.setAttribute("class", "span-yellow")
-    spanGreen.removeAttribute("class", "span-green")
-    spanOrange.removeAttribute("class", "span-orange")
+    divYellow.setAttribute("class", "div-yellow")
+    divGreen.removeAttribute("class", "div-green")
+    divOrange.removeAttribute("class", "div-orange")
 });
 
 btnOrange.addEventListener("click", function(){
     card.setAttribute("class", "orange")
-    spanOrange.setAttribute("class", "span-orange")
-    spanYellow.removeAttribute("class", "span-yellow")
-    spanGreen.removeAttribute("class", "span-green")
+    divOrange.setAttribute("class", "div-orange")
+    divYellow.removeAttribute("class", "div-yellow")
+    divGreen.removeAttribute("class", "div-green")
 });
