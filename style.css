@@ -1,64 +1,90 @@
-.container{
-    width: 100vw;
+body {
     display: flex;
     flex-direction: column;
     align-content: center;
     align-items: center; 
-    margin-top: 250px;
+    font-family: 'Nunito Sans', sans-serif;
+    background: rgba(128, 128, 128, 0.486);
 }
+.container{
+    margin-top: 250px;
+    width: 80%;
+    height: 490px;
+    background: #FFF;
+    border-radius: 6px;
+    box-shadow: 0px 1px 10px 1px #000;
+}
+
 /* Cores criadas para a div "card" */
 .green {
     background: green;
-    width: 30%;
+    width: 320px;
     height: 220px;
     border-radius: 10px;
-    margin-top: 130px;
-    margin-left: 50px;
+    margin: auto;
+    margin-top: 150px;
 }
 .yellow {
     background: yellow;
-    width: 30%;
+    width: 320px;
     height: 220px;
     border-radius: 10px;
-    margin-top: 130px;
-    margin-left: 50px;
+    margin: auto;
+    margin-top: 150px;
 }
 .orange {
     background: orange;
-    width: 30%;
+    width: 320px;
     height: 220px;
     border-radius: 10px;
-    margin-top: 130px;
-    margin-left: 50px;
+    margin: auto;
+    margin-top: 150px;
 }
 
 /* button */
-.btns{
+.btn{
     width: 100px;
-    height: 50px;
-    margin-left: 30px;
+    height: 30px;
     border-radius: 10px;
+    margin: auto;
+    background-color: #a200ff81;
+    color: #fff;
+    border: none;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    background: rgba(128, 128, 128, 0.486);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
 }
 
 /* div */
 .div-green{
-    width: 15px;
-    height: 15px;
+    width: 13px;
+    height: 13px;
     background: green;
-    border-radius: 7.5px;
+    border-radius: 6.5px;
+    margin-left: 5px;
     position: absolute;
 }
 .div-yellow{
-    width: 15px;
-    height: 15px;
+    width: 13px;
+    height: 13px;
     background: yellow;
-    border-radius: 7.5px;
+    border-radius: 6.5px;
+    margin-left: 5px;
     position: absolute;
 }
 .div-orange{
-    width: 15px;
-    height: 15px;
+    width: 13px;
+    height: 13px;
     background: orange;
-    border-radius: 7.5px;
+    border-radius: 6.5px;
+    margin-left: 5px;
     position: absolute;
 }
